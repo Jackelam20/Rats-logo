@@ -12,16 +12,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/Kanabaki/svg-logo-10.git"
+      "url": "git+https://github.com/Jackelam20/Rats-logo"
     },
-    "author": "kanabaki",
+    "author": "jackelam20",
     "license": "ISC",
     "dependencies": {
       "inquirer": "^8.2.4",
       "jest":"^29.6.4"
     },
-    "bugs": {
-      "url": "https://github.com/Kanabaki/svg-logo-10/issues"
-    },
-    "homepage": "https://github.com/Kanabaki/svg-logo-10#readme"
+   
+    "homepage": "https://github.com/Jackelam20/Rats-logo#readme"
   }

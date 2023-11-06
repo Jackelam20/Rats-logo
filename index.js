@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const {Circle, Triangle, Square} = require("./lib/shape");
 
 
-//user prompts =================================================================
+
 const shapePrompts = [
     {
         type: "input",
@@ -31,7 +31,7 @@ Enter a color keyword ie.yellow OR a Hexadecimal number for your shape: `,
             },
 ];
 
-// logo generator ==============================================================
+
 function writeToFile(writingShape) {
     fs.writeFile("logo.svg", writingShape, (err) => {
         if (err)
@@ -42,7 +42,6 @@ function writeToFile(writingShape) {
     });
 };
 
-// Initializing the app =========================================================
 function init() {
     inquirer
     .prompt(shapePrompts)
